@@ -144,6 +144,19 @@
 		font-size: 60px;
 	}
 
+	#arrow-wrap {
+	  position: absolute;
+	  z-index:1;
+	  left: 80%;
+	  top: 60%;
+	  margin-left:-5em;
+	  width:20em;
+	  height:26em;
+	  padding:4em 2em;
+	  font-size:0.5em;
+	  display:block;
+	}
+
 
 	@media (min-width: 992px) {
 		#small-sponsors {
@@ -157,20 +170,6 @@
 			display: none;
 			width: auto;
 		}
-	}
-
-	#arrow-wrap {
-	  position: absolute;
-	  z-index:1;
-	  left: 80%;
-	  top: 500px;
-	  margin-left:-5em;
-	  width:20em;
-	  height:26em;
-	  padding:4em 2em;
-	  font-size:0.5em;
-	  display:block;
-	  box-shadow:0px 0px 5px 0px #333;
 	}
 
 
