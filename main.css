@@ -96,7 +96,15 @@
          right: 46%;
     }
 	#sponsors img {
+		opacity: .25;
+	    transition: opacity .5s ease-out;
+	    -moz-transition: opacity .5s ease-out;
+	    -webkit-transition: opacity .5s ease-out;
+	    -o-transition: opacity .5s ease-out;
+	}
 
+	#sponsors img:hover {
+		opacity: 1;
 	}
 
 	#sponsors h1 {
